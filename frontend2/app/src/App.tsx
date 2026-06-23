@@ -1,0 +1,39 @@
+import { Routes, Route } from 'react-router'
+import Layout from './components/Layout'
+import LoginPage from './pages/LoginPage'
+import HomePage from './pages/HomePage'
+import StandardsPage from './pages/standards/StandardsPage'
+import ObsluzhivaniePage from './pages/standards/ObsluzhivaniePage'
+import ServisArticle from './pages/articles/ServisArticle'
+import SosArticle from './pages/articles/SosArticle'
+import CrpArticle from './pages/articles/CrpArticle'
+import GesArticle from './pages/articles/GesArticle'
+import RfssArticle from './pages/articles/RfssArticle'
+import SkautArticle from './pages/articles/SkautArticle'
+import KomplektaciyaArticle from './pages/articles/KomplektaciyaArticle'
+import VneshniyVidArticle from './pages/articles/VneshniyVidArticle'
+import ProduktPage from './pages/standards/ProduktPage'
+import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
+
+export default function App() {
+  return (
+    <Routes>
+      <Route path="/login" element={<LoginPage />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/standards" element={<StandardsPage />} />
+        <Route path="/standards/obsluzhivanie" element={<ObsluzhivaniePage />} />
+        <Route path="/standards/produkt" element={<ProduktPage />} />
+        <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
+        <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
+        <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
+        <Route path="/standards/obsluzhivanie/crp" element={<CrpArticle />} />
+        <Route path="/standards/obsluzhivanie/ges" element={<GesArticle />} />
+        <Route path="/standards/rfss" element={<RfssArticle />} />
+        <Route path="/standards/obsluzhivanie/skaut" element={<SkautArticle />} />
+        <Route path="/standards/obsluzhivanie/komplektaciya" element={<KomplektaciyaArticle />} />
+        <Route path="/standards/obsluzhivanie/vneshniy-vid" element={<VneshniyVidArticle />} />
+      </Route>
+    </Routes>
+  )
+}
