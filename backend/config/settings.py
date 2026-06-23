@@ -104,4 +104,7 @@ CORS_ALLOWED_ORIGINS = [o for o in _cors_origins_env.split(',') if o] or [
     'http://localhost:3000',
     'http://localhost:3001',
 ]
+CORS_ALLOWED_ORIGIN_REGEXES = [
+    r'^https://.*\.vercel\.app$',
+]
 CORS_ALLOW_CREDENTIALS = True
