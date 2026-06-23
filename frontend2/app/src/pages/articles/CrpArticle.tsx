@@ -1034,7 +1034,7 @@ export default function CrpArticle() {
                   <td className="font-bold p-2.5 border align-top" style={{ borderColor: '#e0d0d0', lineHeight: '1.55', minWidth: '170px' }}>{situation}</td>
                   <td className="p-2.5 border align-top" style={{ borderColor: '#e0d0d0', lineHeight: '1.55' }}>
                     <ul className="list-none m-0 p-0">
-                      {actions.map((action, ai) => (
+                      {(actions as string[]).map((action, ai) => (
                         <li key={ai} className="text-[13px] py-0.5 relative pl-3.5" style={{ lineHeight: '1.55' }}>
                           <span className="absolute left-0.5">•</span>
                           {action}
