@@ -28,6 +28,7 @@ const articles: ArticleCard[] = [
     title: 'Balanced Scorecard (B.S.C)',
     description: 'Сбалансированная система показателей для оценки эффективности ресторана...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/bsc',
   },
   {
     title: 'Бренд Шеф KFC',
