@@ -44,6 +44,7 @@ const categories: CategoryCard[] = [
     title: 'Управление',
     gradient: 'linear-gradient(140deg, #a05828 0%, #6c3810 60%, #3c1c04 100%)',
     image: '/assets/std-management.jpg',
+    href: '/standards/upravleniye',
   },
   {
     title: 'Химические вещества и чистка',
