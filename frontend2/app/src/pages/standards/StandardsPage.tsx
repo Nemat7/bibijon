@@ -49,6 +49,7 @@ const categories: CategoryCard[] = [
     title: 'Химические вещества и чистка',
     gradient: 'linear-gradient(140deg, #5a7a5a 0%, #384e38 60%, #202c20 100%)',
     image: '/assets/std-chemicals.jpg',
+    href: '/standards/himicheskiye',
   },
   {
     title: 'Equipment Brand Standards',
