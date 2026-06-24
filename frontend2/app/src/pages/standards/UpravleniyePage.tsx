@@ -111,6 +111,7 @@ const articles: ArticleCard[] = [
     title: 'Корпоративная культура',
     description: 'Ценности, миссия и корпоративная культура бренда KFC...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/upravleniye/Корпоративная культура.pdf',
   },
   {
     title: 'RGS (Running Great Shifts)',
