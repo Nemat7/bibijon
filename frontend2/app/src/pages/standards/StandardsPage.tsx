@@ -26,6 +26,7 @@ const categories: CategoryCard[] = [
     title: 'Развитие',
     gradient: 'linear-gradient(140deg, #2850a8 0%, #1a3070 60%, #0c1840 100%)',
     image: '/assets/std-development.jpg',
+    href: '/standards/razvitiye',
   },
   {
     title: 'Оборудование',
