@@ -306,48 +306,57 @@ const articles: ArticleCard[] = [
     title: 'Картофель Крисперс (Армения)',
     description: 'Картофель КРИСПЕРС представляют собой золотистые дольки...',
     tags: [{ label: '#Продукт' }, { label: '#Armenia' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Картофель Крисперс (Армения).pdf',
   },
   {
     title: 'I - Твистер (HS, Казахстан)',
     description: 'Сандвичи в лепешках',
     tags: [{ label: '#Продукт' }, { label: '#Kazakhstan' }, { label: '+2', isMore: true }],
+    href: '/pdfs/product/I - Твистер (HS, Казахстан).pdf',
   },
   {
     title: 'I - твистер (OR,Казахстан)',
     description: 'Сандвичи в тортильях',
     tags: [{ label: '#Продукт' }, { label: '#KZ' }, { label: '+2', isMore: true }],
+    href: '/pdfs/product/I - твистер (OR,Казахстан).pdf',
   },
   // === ROW 17 ===
   {
     title: 'Луковые кольца',
     description: 'Нежнейшие луковые кольца, обжаренные в хрустящей панир...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+4', isMore: true }],
+    href: '/pdfs/product/Луковые кольца.pdf',
   },
   {
     title: 'Мега Ролл - Tajik',
     description: 'Сандвичхо дар тортилияхо',
     tags: [{ label: '#Продукт' }, { label: '#Tajikistan' }, { label: '+3', isMore: true }],
+    href: '/pdfs/product/Мега Ролл - Tajik.pdf',
   },
   {
     title: 'Сырные подушечки',
     description: 'Нежнейшие сырные подушечки, обжаренные в хрустящей пан...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+7', isMore: true }],
+    href: '/pdfs/product/Сырные подушечки.pdf',
   },
   // === ROW 18 ===
   {
     title: 'Пойхои мург OR - Tajik',
     description: 'Полковник Харланд Сандерс дар соли 1939 мурғхои Original Rec...',
     tags: [{ label: '#оригинальная курица' }, { label: '+4', isMore: true }],
+    href: '/pdfs/product/Пойҳои мурғ OR - Tajik.pdf',
   },
   {
     title: 'Бустер Джуниор',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '+3', isMore: true }],
+    href: '/pdfs/product/Бустер Джуниор.pdf',
   },
   {
     title: 'Бустер',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#UZ' }, { label: '+2', isMore: true }],
+    href: '/pdfs/product/Бустер.pdf',
   },
   // === ROW 19 ===
   {
