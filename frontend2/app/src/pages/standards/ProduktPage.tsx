@@ -363,32 +363,38 @@ const articles: ArticleCard[] = [
     title: 'Мохито и Лимонад Маракуйя/Арбуз',
     description: 'Охлажденные безалкогольные напитки ...',
     tags: [{ label: '#AZ' }, { label: '#product' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Мохито и Лимонад Маракуйя:Арбуз.pdf',
   },
   {
     title: 'Пирожки',
     description: 'Хрустящие пирожки с различными ягодно-фруктовыми мягким...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+16', isMore: true }],
+    href: '/pdfs/product/Пирожки.pdf',
   },
   {
     title: 'Донаты Новые',
     description: 'Десерты - новые донаты карамельный вкус и клубничка',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+11', isMore: true }],
+    href: '/pdfs/product/Донаты Новые.pdf',
   },
   // === ROW 20 ===
   {
     title: 'Твистер Чиз Дуэт (HS)-Армения',
     description: 'Сандвичи в лепешках',
     tags: [{ label: '#Продукт' }, { label: '#Армения' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Твистер Чиз Дуэт (HS)-Армения.pdf',
   },
   {
     title: 'Твистер Чиз Дуэт OR (Армения)',
     description: 'Сандвичи в тортильях',
     tags: [{ label: '#Продукт' }, { label: '#Armenia' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Твистер Чиз Дуэт OR (Армения).pdf',
   },
   {
     title: 'Твистер Халапеньо Чиз (HS)-Армения',
     description: 'Сандвичи в лепешках',
     tags: [{ label: '#Продукт' }, { label: '#Армения' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Твистер Халапеньо Чиз (HS)-Армения.pdf',
   },
   // === ROW 21 ===
   {
@@ -401,27 +407,32 @@ const articles: ArticleCard[] = [
     title: 'Зингер',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+2', isMore: true }],
+    href: '/pdfs/product/Зингер.pdf',
   },
   {
     title: 'Байтсы из куриного филе',
     description: 'Байтсы из куриного филе KFC ® - это кусочки из куриного филе, зам...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+18', isMore: true }],
+    href: '/pdfs/product/Байтсы из куриного филе.pdf',
   },
   // === ROW 22 ===
   {
     title: 'Кукуруза',
     description: 'Золотистая, мягкая кукуруза с отличным вкусом. Это замечател...',
     tags: [{ label: '#Azerbaijan' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Кукуруза.pdf',
   },
   {
     title: 'Напитки POST MIX - Cloned',
     description: 'В этом CSL вы найдете информацию как готовить напитки из си...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Напитки POST MIX - Cloned.pdf',
   },
   {
     title: 'Маффины - Cloned',
     description: 'В этом CSL вы найдете информацию по размораживанию и сер...',
     tags: [{ label: '#Продукт' }, { label: '#AZ' }, { label: '+14', isMore: true }],
+    href: '/pdfs/product/Маффины - Cloned.pdf',
   },
   // === ROW 23 ===
   {
