@@ -445,16 +445,19 @@ const articles: ArticleCard[] = [
     title: 'Сандерс бургер OR/HS (с сыром Чеддер) ...',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#Грузия' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Сандерс бургер OR: HS (с сыром Чеддер) - Cloned.pdf',
   },
   {
     title: 'Мороженое Попкорн - Cloned',
     description: 'Мягкое мороженое',
     tags: [{ label: '#Продукт' }],
+    href: '/pdfs/product/Мороженое Попкорн - Cloned.pdf',
   },
   {
     title: 'Карри бургер OR/HS LTO - Cloned',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Карри бургер OR:HS LTO - Cloned.pdf',
   },
   // === ROW 24 ===
   {
@@ -466,59 +469,70 @@ const articles: ArticleCard[] = [
     title: 'Горячие напитки',
     description: 'В этом CSL вы найдете всю информацию по приготовлению г...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Горячие напитки.pdf',
   },
   {
     title: 'Карри бургер OR/HS LTO',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '+1', isMore: true }],
+    href: '/pdfs/product/Карри бургер OR:HS LTO.pdf',
   },
   // === ROW 25 ===
   {
     title: 'Маффины',
     description: 'В этом CSL вы найдете информацию по размораживанию и сер...',
     tags: [{ label: '#Продукт' }, { label: '#AZ' }, { label: '+14', isMore: true }],
+    href: '/pdfs/product/Маффины.pdf',
   },
   {
     title: 'Маффины',
     description: 'В этом CSL вы найдете информацию по размораживанию и сер...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+11', isMore: true }],
+    href: '/pdfs/product/Maffiny.pdf',
   },
   {
     title: 'Сандерс картофель по-деревенски',
     description: 'Картофель по-деревенски с соусом бургер',
     tags: [{ label: '#Продукт' }, { label: '#KG' }, { label: '+5', isMore: true }],
+    href: '/pdfs/product/Сандерс картофель по-деревенски.pdf',
   },
   // === ROW 26 ===
   {
     title: 'Сандерс картофель фри',
     description: 'Картофель фри с соусом бургер',
     tags: [{ label: '#Продукт' }, { label: '#KG' }, { label: '+5', isMore: true }],
+    href: '/pdfs/product/Сандерс картофель фри.pdf',
   },
   {
     title: 'Биг Сандерс бургер OR/ HS',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+18', isMore: true }],
+    href: '/pdfs/product/Биг Сандерс бургер OR: HS.pdf',
   },
   {
     title: 'Бракераж',
     description: 'В этой статье ты найдешь всю информацию о том как прово...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Бракераж.pdf',
   },
   // === ROW 27 ===
   {
     title: 'Управление качеством масла',
     description: 'В этой статье вы найдете всю информацию по работе с фритюр...',
     tags: [{ label: '#Продукт' }, { label: '+25', isMore: true }],
+    href: '/pdfs/product/Управление качеством масла.pdf',
   },
   {
     title: 'Мороженое Рожок',
     description: 'В этом CSL вы найдете информацию о подготовке вафельных р...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Мороженое Рожок.pdf',
   },
   {
     title: 'Филе острое Зингер',
     description: 'Филе Зингер Hot & Spicy KFC ® - это куриное филе, замаринова...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+21', isMore: true }],
+    href: '/pdfs/product/Филе острое Зингер.pdf',
   },
   // === ROW 28 ===
   {
@@ -583,6 +597,7 @@ const articles: ArticleCard[] = [
     title: 'Общие правила сборки сандвичей',
     description: 'В этой статье вы найдете стандарты сборки сандвичей, а та...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+21', isMore: true }],
+    href: '/pdfs/product/Obschie pravila sborki sandvichey.pdf',
   },
   // === ROW 32 ===
   {
