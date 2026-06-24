@@ -105,6 +105,7 @@ const articles: ArticleCard[] = [
     title: 'Руководство по открытию новых ресторанов',
     description: 'Пошаговое руководство по процессу открытия нового ресторана KFC...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/otkrytiye',
   },
   {
     title: 'Корпоративная культура',
