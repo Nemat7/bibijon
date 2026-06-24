@@ -40,6 +40,7 @@ const articles: ArticleCard[] = [
     title: 'Создание безопасной и благоприятной среды',
     description: 'Создание безопасной и комфортной среды для работы – одна из важнейших...',
     tags: [{ label: '#Развитие' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/razvitiye/Создание безопасной и благоприятной среды.pdf',
   },
 ]
 
