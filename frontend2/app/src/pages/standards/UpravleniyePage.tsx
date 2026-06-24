@@ -46,6 +46,7 @@ const articles: ArticleCard[] = [
     title: 'Кликун',
     description: 'Процедура работы с системой Кликун в ресторане...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/upravleniye/Кликун.pdf',
   },
   {
     title: 'P&L и управление затратами (COS, COL, Semis)',
