@@ -22,6 +22,7 @@ const articles: ArticleCard[] = [
     title: 'Управление обучением в ресторане',
     description: 'Бренд KFC стремительно растет и развивается. Вместе с ним стр...',
     tags: [{ label: '#Развитие' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/razvitiye/Управление обучением в ресторане.pdf',
   },
   {
     title: 'Планирование кадрового резерва (PPR)',
