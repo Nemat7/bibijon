@@ -28,6 +28,7 @@ import KrizisPage from './pages/standards/KrizisPage'
 import ProdazhiPage from './pages/standards/ProdazhiPage'
 import OtpbPage from './pages/standards/OtpbPage'
 import OtkrytiyePage from './pages/standards/OtkrytiyePage'
+import RgsPage from './pages/standards/RgsPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -56,6 +57,7 @@ export default function App() {
         <Route path="/standards/upravleniye/prodazhi" element={<ProdazhiPage />} />
         <Route path="/standards/upravleniye/otpb" element={<OtpbPage />} />
         <Route path="/standards/upravleniye/otkrytiye" element={<OtkrytiyePage />} />
+        <Route path="/standards/upravleniye/rgs" element={<RgsPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

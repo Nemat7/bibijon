@@ -117,6 +117,7 @@ const articles: ArticleCard[] = [
     title: 'RGS (Running Great Shifts)',
     description: 'Стандарты и процедуры управления сменой для достижения отличных результатов...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/rgs',
   },
 ]
 
