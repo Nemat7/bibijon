@@ -58,6 +58,7 @@ const articles: ArticleCard[] = [
     title: 'Инвентаризация',
     description: 'Процедура проведения инвентаризации в ресторане KFC...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/inventarizaciya',
   },
   {
     title: 'Прогнозирование',
