@@ -539,92 +539,108 @@ const articles: ArticleCard[] = [
     title: 'Филе оригинальное Классик',
     description: 'Филе Классик Original Recipe ® маринуется и панируется по с...',
     tags: [{ label: '+23 теги', isMore: true }],
+    href: '/pdfs/product/Филе оригинальное Классик.pdf',
   },
   {
     title: 'Стрипсы HS',
     description: 'Стрипсы Hot & Spicy KFC ® - это полоски из куриного филе, зам...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+21', isMore: true }],
+    href: '/pdfs/product/Стрипсы HS.pdf',
   },
   {
     title: 'Острые крылышки',
     description: 'Острые крылышки KFC ® - это мясистые кусочки куриных кр...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+21', isMore: true }],
+    href: '/pdfs/product/Острые крылышки.pdf',
   },
   // === ROW 29 ===
   {
     title: 'Размораживание куриных полуфабрик...',
     description: 'В этой главе вы узнаете о том, как правильно разморозить з...',
     tags: [{ label: '+26 теги', isMore: true }],
+    href: '/pdfs/product/Размораживание куриных полуфабрикатов.pdf',
   },
   {
     title: 'Шефбургер Джуниор острый',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '+26', isMore: true }],
+    href: '/pdfs/product/Шефбургер Джуниор острый.pdf',
   },
   {
     title: 'Шефбургер Джуниор оригинальный',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '+26', isMore: true }],
+    href: '/pdfs/product/Шефбургер Джуниор оригинальный.pdf',
   },
   // === ROW 30 ===
   {
     title: 'Твистер из тостера OR / HS',
     description: 'Сандвичи в тортильях',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+23', isMore: true }],
+    href: '/pdfs/product/Твистер из тостера OR : HS.pdf',
   },
   {
     title: 'Айс Кофе LTO',
     description: 'Охлажденный кофе',
     tags: [{ label: '#Продукт' }, { label: '#KG' }, { label: '+17', isMore: true }],
+    href: '/pdfs/product/Айс Кофе LTO.pdf',
   },
   {
     title: 'Шефбургер Новый',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#AM' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Шефбургер Новый.pdf',
   },
   // === ROW 31 (PAGE 3) ===
   {
     title: 'Напитки POST MIX',
     description: 'В этом CSL вы найдете информацию как готовить напитки из си...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/product/Напитки POST MIX.pdf',
   },
   {
     title: 'Куриные ножки OR',
     description: 'Полковник Харланд Сандерс представил курицу Original Rec...',
     tags: [{ label: '+24 теги', isMore: true }],
+    href: '/pdfs/product/Куриные ножки OR.pdf',
   },
   {
     title: 'Общие правила сборки сандвичей',
     description: 'В этой статье вы найдете стандарты сборки сандвичей, а та...',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+21', isMore: true }],
-    href: '/pdfs/product/Obschie pravila sborki sandvichey.pdf',
+    href: '/pdfs/product/Общие правила сборки сандвичей.pdf',
   },
   // === ROW 32 ===
   {
     title: 'Чизбургер с луком',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#KZ' }, { label: '+13', isMore: true }],
+    href: '/pdfs/product/Чизбургер с луком.pdf',
   },
   {
     title: 'Таблица "Сроки и условия хранения в...',
     description: 'В этом CSL вы найдете таблицу со сроками и условиями хране...',
     tags: [{ label: '#GE' }, { label: '#Georgia' }, { label: '+19', isMore: true }],
+    href: '/pdfs/product/Таблица "Сроки и условия хранения всех продуктов и ингредиентов".pdf',
   },
   {
     title: 'Донаты',
     description: 'Десерты - донаты с яблочной начинкой и ореховой начинкой, ...',
     tags: [{ label: '#Продукт' }, { label: '#KZ' }, { label: '+11', isMore: true }],
+    href: '/pdfs/product/Донаты.pdf',
   },
   // === ROW 33 ===
   {
     title: 'Лонгер спешл',
     description: 'Сандвичи в булках',
     tags: [{ label: '#KG' }, { label: '#Kyrgyzstan' }, { label: '+8', isMore: true }],
+    href: '/pdfs/product/Лонгер спешл.pdf',
   },
   {
     title: 'Чикен Пита новая LTO',
     description: 'Сандвичи в тортильях',
     tags: [{ label: '#Продукт' }, { label: '#UZ' }, { label: '+11', isMore: true }],
+    href: '/pdfs/product/Чикен Пита новая LTO.pdf',
   },
 ]
 
