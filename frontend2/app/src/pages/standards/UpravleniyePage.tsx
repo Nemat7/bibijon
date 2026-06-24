@@ -34,6 +34,7 @@ const articles: ArticleCard[] = [
     title: 'Бренд Шеф KFC',
     description: 'Стандарты и требования к бренд-шефу KFC...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/brend-shef',
   },
   {
     title: 'Рутина успеха Территориального управляющего',
