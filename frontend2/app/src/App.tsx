@@ -15,6 +15,7 @@ import VneshniyVidArticle from './pages/articles/VneshniyVidArticle'
 import ProduktPage from './pages/standards/ProduktPage'
 import RazvitiyePage from './pages/standards/RazvitiyePage'
 import NaborPage from './pages/standards/NaborPage'
+import PprPage from './pages/standards/PprPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
 export default function App() {
@@ -28,6 +29,7 @@ export default function App() {
         <Route path="/standards/produkt" element={<ProduktPage />} />
         <Route path="/standards/razvitiye" element={<RazvitiyePage />} />
         <Route path="/standards/razvitiye/nabor" element={<NaborPage />} />
+        <Route path="/standards/razvitiye/ppr" element={<PprPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

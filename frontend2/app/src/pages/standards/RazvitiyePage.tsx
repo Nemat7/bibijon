@@ -28,6 +28,7 @@ const articles: ArticleCard[] = [
     title: 'Планирование кадрового резерва (PPR)',
     description: 'Для успешного управления командой, руководитель ресторана...',
     tags: [{ label: '#Развитие' }, { label: '#GE' }, { label: '+21', isMore: true }],
+    to: '/standards/razvitiye/ppr',
   },
   {
     title: 'Общение с командой ресторана',
