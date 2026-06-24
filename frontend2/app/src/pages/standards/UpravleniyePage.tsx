@@ -69,6 +69,7 @@ const articles: ArticleCard[] = [
     title: 'Работа с отчетами в R-Keeper',
     description: 'Руководство по работе с отчетами и аналитикой в системе R-Keeper...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/upravleniye/Работа с отчетами в R-Keeper.pdf',
   },
   {
     title: 'Кризис Менеджмент',
