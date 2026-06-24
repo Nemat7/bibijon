@@ -87,6 +87,7 @@ const articles: ArticleCard[] = [
     title: 'Контроль кассовых операций',
     description: 'Процедуры контроля и учета кассовых операций в ресторане...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/upravleniye/ККО в ресторанах KFC 2020 _0.pdf',
   },
   {
     title: 'Меры защиты и обеспечение ОТ и ПБ',
