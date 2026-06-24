@@ -16,6 +16,7 @@ const articles: ArticleCard[] = [
     title: '4 PILLARS',
     description: 'Четыре ключевых столпа управления рестораном KFC...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/upravleniye/4 PILLARS.pdf',
   },
   {
     title: 'Правила безопасности для предупреждения преступлений в помещениях',
