@@ -81,6 +81,7 @@ const articles: ArticleCard[] = [
     title: 'Управление продажами',
     description: 'Стратегии и инструменты управления продажами в ресторане KFC...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/prodazhi',
   },
   {
     title: 'Контроль кассовых операций',
