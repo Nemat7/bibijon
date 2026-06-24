@@ -40,6 +40,7 @@ const articles: ArticleCard[] = [
     title: 'Рутина успеха Территориального управляющего',
     description: 'Ежедневные и еженедельные рутины территориального управляющего...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    href: '/pdfs/upravleniye/Рутина успеха Территориального управляющего.pdf',
   },
   {
     title: 'Кликун',
