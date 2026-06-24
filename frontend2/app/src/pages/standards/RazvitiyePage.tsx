@@ -34,6 +34,7 @@ const articles: ArticleCard[] = [
     title: 'Общение с командой ресторана',
     description: 'Эффективное общение с командой — одно из условий успешной работы ресторана...',
     tags: [{ label: '#Развитие' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/razvitiye/obshhenie',
   },
   {
     title: 'Создание безопасной и благоприятной среды',
