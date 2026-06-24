@@ -22,6 +22,7 @@ import UpravleniyePage from './pages/standards/UpravleniyePage'
 import PravilaBezopasnostiPage from './pages/standards/PravilaBezopasnostiPage'
 import BscPage from './pages/standards/BscPage'
 import BrendShefPage from './pages/standards/BrendShefPage'
+import PlPage from './pages/standards/PlPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -44,6 +45,7 @@ export default function App() {
         <Route path="/standards/upravleniye/pravila-bezopasnosti" element={<PravilaBezopasnostiPage />} />
         <Route path="/standards/upravleniye/bsc" element={<BscPage />} />
         <Route path="/standards/upravleniye/brend-shef" element={<BrendShefPage />} />
+        <Route path="/standards/upravleniye/pl" element={<PlPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

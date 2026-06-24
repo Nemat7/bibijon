@@ -52,6 +52,7 @@ const articles: ArticleCard[] = [
     title: 'P&L и управление затратами (COS, COL, Semis)',
     description: 'Управление прибылью и убытками, контроль затрат на продукты, труд и полуфабрикаты...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/pl',
   },
   {
     title: 'Инвентаризация',
