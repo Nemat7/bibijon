@@ -404,6 +404,12 @@ const articles: ArticleCard[] = [
     href: '/pdfs/product/Получение продуктов и упаковки от поставщиков и хранение их в ресторанах.pdf',
   },
   {
+    title: 'Получение продуктов и упаковки от поста... - Cloned',
+    description: 'Получение и хранение в ресторане продуктов от поставщиков',
+    tags: [{ label: '#Продукт' }, { label: '+11', isMore: true }],
+    href: '/pdfs/product/Получение продуктов и упаковки от поставщиков и хранение их в ресторанах - Cloned.pdf',
+  },
+  {
     title: 'Зингер',
     description: 'Сандвичи в булках',
     tags: [{ label: '#Продукт' }, { label: '#GE' }, { label: '+2', isMore: true }],
