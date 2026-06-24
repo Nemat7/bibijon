@@ -75,6 +75,7 @@ const articles: ArticleCard[] = [
     title: 'Кризис Менеджмент',
     description: 'Процедуры и действия в кризисных ситуациях для управляющих рестораном...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/krizis',
   },
   {
     title: 'Управление продажами',

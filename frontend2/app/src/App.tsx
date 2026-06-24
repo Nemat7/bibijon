@@ -24,6 +24,7 @@ import BscPage from './pages/standards/BscPage'
 import BrendShefPage from './pages/standards/BrendShefPage'
 import PlPage from './pages/standards/PlPage'
 import InventarizaciyaPage from './pages/standards/InventarizaciyaPage'
+import KrizisPage from './pages/standards/KrizisPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -48,6 +49,7 @@ export default function App() {
         <Route path="/standards/upravleniye/brend-shef" element={<BrendShefPage />} />
         <Route path="/standards/upravleniye/pl" element={<PlPage />} />
         <Route path="/standards/upravleniye/inventarizaciya" element={<InventarizaciyaPage />} />
+        <Route path="/standards/upravleniye/krizis" element={<KrizisPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
