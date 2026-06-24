@@ -26,6 +26,7 @@ import PlPage from './pages/standards/PlPage'
 import InventarizaciyaPage from './pages/standards/InventarizaciyaPage'
 import KrizisPage from './pages/standards/KrizisPage'
 import ProdazhiPage from './pages/standards/ProdazhiPage'
+import OtpbPage from './pages/standards/OtpbPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -52,6 +53,7 @@ export default function App() {
         <Route path="/standards/upravleniye/inventarizaciya" element={<InventarizaciyaPage />} />
         <Route path="/standards/upravleniye/krizis" element={<KrizisPage />} />
         <Route path="/standards/upravleniye/prodazhi" element={<ProdazhiPage />} />
+        <Route path="/standards/upravleniye/otpb" element={<OtpbPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

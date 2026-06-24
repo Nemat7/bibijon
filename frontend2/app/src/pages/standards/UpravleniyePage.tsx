@@ -93,6 +93,7 @@ const articles: ArticleCard[] = [
     title: 'Меры защиты и обеспечение ОТ и ПБ',
     description: 'Меры по охране труда и пожарной безопасности в ресторане...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/otpb',
   },
   {
     title: 'Расследование и учет несчастных случаев на производстве',
