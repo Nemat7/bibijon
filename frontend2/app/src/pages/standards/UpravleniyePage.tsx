@@ -22,6 +22,7 @@ const articles: ArticleCard[] = [
     title: 'Правила безопасности для предупреждения преступлений в помещениях',
     description: 'Правила и процедуры безопасности для предотвращения преступлений...',
     tags: [{ label: '#Управление' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/upravleniye/pravila-bezopasnosti',
   },
   {
     title: 'Balanced Scorecard (B.S.C)',

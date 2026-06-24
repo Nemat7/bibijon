@@ -19,6 +19,7 @@ import PprPage from './pages/standards/PprPage'
 import ObshheniePage from './pages/standards/ObshheniePage'
 import HimicheskiyePage from './pages/standards/HimicheskiyePage'
 import UpravleniyePage from './pages/standards/UpravleniyePage'
+import PravilaBezopasnostiPage from './pages/standards/PravilaBezopasnostiPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -38,6 +39,7 @@ export default function App() {
         <Route path="/standards/himicheskiye" element={<HimicheskiyePage />} />
         <Route path="/standards/himicheskiye/cleaning-captain" element={<CleaningCaptainPage />} />
         <Route path="/standards/upravleniye" element={<UpravleniyePage />} />
+        <Route path="/standards/upravleniye/pravila-bezopasnosti" element={<PravilaBezopasnostiPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
