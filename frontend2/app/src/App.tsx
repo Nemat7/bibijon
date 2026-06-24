@@ -18,6 +18,7 @@ import NaborPage from './pages/standards/NaborPage'
 import PprPage from './pages/standards/PprPage'
 import ObshheniePage from './pages/standards/ObshheniePage'
 import HimicheskiyePage from './pages/standards/HimicheskiyePage'
+import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
 export default function App() {
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/standards/razvitiye/ppr" element={<PprPage />} />
         <Route path="/standards/razvitiye/obshhenie" element={<ObshheniePage />} />
         <Route path="/standards/himicheskiye" element={<HimicheskiyePage />} />
+        <Route path="/standards/himicheskiye/cleaning-captain" element={<CleaningCaptainPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

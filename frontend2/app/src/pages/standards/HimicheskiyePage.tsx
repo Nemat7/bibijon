@@ -16,6 +16,7 @@ const articles: ArticleCard[] = [
     title: 'Программа уборки Cleaning Captain',
     description: 'Программа уборки и поддержания чистоты в ресторане...',
     tags: [{ label: '#Химия' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/himicheskiye/cleaning-captain',
   },
 ]
 
