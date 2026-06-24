@@ -8,6 +8,7 @@ interface ArticleCard {
   description: string
   tags: { label: string; isMore?: boolean }[]
   href?: string
+  to?: string
 }
 
 const articles: ArticleCard[] = [
@@ -15,6 +16,7 @@ const articles: ArticleCard[] = [
     title: 'Набор и отбор членов команды',
     description: 'Независимо от того, стоит ли перед Вами задача открыть новый ресторан или...',
     tags: [{ label: '#Развитие' }, { label: '#GE' }, { label: '+20', isMore: true }],
+    to: '/standards/razvitiye/nabor',
   },
   {
     title: 'Управление обучением в ресторане',
@@ -106,6 +108,18 @@ function ArticleCardComponent({ article }: { article: ArticleCard }) {
       </div>
     </>
   )
+
+  if (article.to) {
+    return (
+      <Link
+        to={article.to}
+        className="group flex flex-col bg-white rounded-[12px] overflow-hidden no-underline"
+        style={{ ...sharedStyle, cursor: 'pointer' }}
+      >
+        {inner}
+      </Link>
+    )
+  }
 
   if (article.href) {
     return (
