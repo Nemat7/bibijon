@@ -17,7 +17,7 @@ const articles: ArticleCard[] = [
   { title: 'PM Календарь', description: 'Календарь планово-предупредительного обслуживания оборудования', href: '/pdfs/oborudovaniye/PM Календарь.pdf' },
   { title: 'Мармит BM1W (BM)', description: 'Мармит электрический для подогрева ингредиентов', to: '/standards/oborudovaniye/marmit' },
   { title: 'Сэндвичная станция Техно-ТТ СПН', description: 'Серия C-124/20/1007', to: '/standards/oborudovaniye/tehno-tt' },
-  { title: 'Миксер Vita Mix', description: 'Миксер для приготовления десертов, напитков, смесей из разных ингредиентов' },
+  { title: 'Миксер Vita Mix', description: 'Миксер для приготовления десертов, напитков, смесей из разных ингредиентов', to: '/standards/oborudovaniye/vitamix' },
   { title: 'Antunes (RoundUp) ES-1200', description: 'Машина для приготовления яиц' },
   { title: 'Сертификация фритюров', description: 'Цель: обеспечить безопасность сотрудников и исправное техническое состояние фритюров' },
   { title: 'Миксер Hamilton Beach', description: 'Миксер для приготовления молочных коктейлей, десертов' },
