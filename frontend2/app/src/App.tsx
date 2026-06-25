@@ -30,6 +30,7 @@ import OtpbPage from './pages/standards/OtpbPage'
 import OtkrytiyePage from './pages/standards/OtkrytiyePage'
 import RgsPage from './pages/standards/RgsPage'
 import OborudovaniyePage from './pages/standards/OborudovaniyePage'
+import SkycoldPage from './pages/standards/SkycoldPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -60,6 +61,7 @@ export default function App() {
         <Route path="/standards/upravleniye/otkrytiye" element={<OtkrytiyePage />} />
         <Route path="/standards/upravleniye/rgs" element={<RgsPage />} />
         <Route path="/standards/oborudovaniye" element={<OborudovaniyePage />} />
+        <Route path="/standards/oborudovaniye/skycold" element={<SkycoldPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

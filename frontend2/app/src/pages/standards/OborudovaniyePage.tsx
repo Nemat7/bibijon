@@ -11,7 +11,7 @@ interface ArticleCard {
 }
 
 const articles: ArticleCard[] = [
-  { title: 'Холодильник/морозильник SKYCOLD GNH/GNL', description: 'Холодильник/морозильник SKYCOLD GNH/GNL' },
+  { title: 'Холодильник/морозильник SKYCOLD GNH/GNL', description: 'Холодильник/морозильник SKYCOLD GNH/GNL', to: '/standards/oborudovaniye/skycold' },
   { title: 'ХОЛОДИЛЬНИК ДЛЯ ОТХОДОВ SIMECO', description: 'Холодильник для отходов SIMECO' },
   { title: 'Оборудование', description: 'Общее руководство по оборудованию ресторана KFC' },
   { title: 'PM Календарь', description: 'Календарь планово-предупредительного обслуживания оборудования' },
