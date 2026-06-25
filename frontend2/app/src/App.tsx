@@ -38,6 +38,28 @@ import VitamixPage from './pages/standards/VitamixPage'
 import AntunPage from './pages/standards/AntunPage'
 import FrankePage from './pages/standards/FrankePage'
 import HennyPennyShkafPage from './pages/standards/HennyPennyShkafPage'
+import PolairPage from './pages/standards/PolairPage'
+import FrymasterFprePage from './pages/standards/FrymasterFprePage'
+import HennyPenny590Page from './pages/standards/HennyPenny590Page'
+import RobolabsTosterPage from './pages/standards/RobolabsTosterPage'
+import GrilStarPage from './pages/standards/GrilStarPage'
+import GrilWoodsonPage from './pages/standards/GrilWoodsonPage'
+import TigerPage from './pages/standards/TigerPage'
+import FabristeelPage from './pages/standards/FabristeelPage'
+import PrincecastleTosterPage from './pages/standards/PrincecastleTosterPage'
+import PrincecastleGrilPage from './pages/standards/PrincecastleGrilPage'
+import SimecoVitrinaPage from './pages/standards/SimecoVitrinaPage'
+import TtmPage from './pages/standards/TtmPage'
+import HcwPage from './pages/standards/HcwPage'
+import RobolabsLarPage from './pages/standards/RobolabsLarPage'
+import FollettLarPage from './pages/standards/FollettLarPage'
+import ScotsmanPage from './pages/standards/ScotsmanPage'
+import IcematicPage from './pages/standards/IcematicPage'
+import TrueMorozilnikPage from './pages/standards/TrueMorozilnikPage'
+import SimecoMorozilnikPage from './pages/standards/SimecoMorozilnikPage'
+import OrwakPage from './pages/standards/OrwakPage'
+import AyrkingPage from './pages/standards/AyrkingPage'
+import HobartPage from './pages/standards/HobartPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -76,6 +98,28 @@ export default function App() {
         <Route path="/standards/oborudovaniye/antunes" element={<AntunPage />} />
         <Route path="/standards/oborudovaniye/franke" element={<FrankePage />} />
         <Route path="/standards/oborudovaniye/henny-penny-shkaf" element={<HennyPennyShkafPage />} />
+        <Route path="/standards/oborudovaniye/polair" element={<PolairPage />} />
+        <Route path="/standards/oborudovaniye/frymaster-fpre214" element={<FrymasterFprePage />} />
+        <Route path="/standards/oborudovaniye/henny-penny-590" element={<HennyPenny590Page />} />
+        <Route path="/standards/oborudovaniye/robolabs-toster" element={<RobolabsTosterPage />} />
+        <Route path="/standards/oborudovaniye/gril-star" element={<GrilStarPage />} />
+        <Route path="/standards/oborudovaniye/gril-woodson" element={<GrilWoodsonPage />} />
+        <Route path="/standards/oborudovaniye/tiger" element={<TigerPage />} />
+        <Route path="/standards/oborudovaniye/fabristeel" element={<FabristeelPage />} />
+        <Route path="/standards/oborudovaniye/princecastle-toster" element={<PrincecastleTosterPage />} />
+        <Route path="/standards/oborudovaniye/princecastle-gril" element={<PrincecastleGrilPage />} />
+        <Route path="/standards/oborudovaniye/simeco-vitrina" element={<SimecoVitrinaPage />} />
+        <Route path="/standards/oborudovaniye/ttm" element={<TtmPage />} />
+        <Route path="/standards/oborudovaniye/hcw" element={<HcwPage />} />
+        <Route path="/standards/oborudovaniye/robolabs-lar" element={<RobolabsLarPage />} />
+        <Route path="/standards/oborudovaniye/follett-lar" element={<FollettLarPage />} />
+        <Route path="/standards/oborudovaniye/scotsman" element={<ScotsmanPage />} />
+        <Route path="/standards/oborudovaniye/icematic" element={<IcematicPage />} />
+        <Route path="/standards/oborudovaniye/true-morozilnik" element={<TrueMorozilnikPage />} />
+        <Route path="/standards/oborudovaniye/simeco-morozilnik" element={<SimecoMorozilnikPage />} />
+        <Route path="/standards/oborudovaniye/orwak" element={<OrwakPage />} />
+        <Route path="/standards/oborudovaniye/ayrking" element={<AyrkingPage />} />
+        <Route path="/standards/oborudovaniye/hobart" element={<HobartPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
