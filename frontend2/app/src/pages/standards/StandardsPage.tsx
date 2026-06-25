@@ -32,7 +32,7 @@ const categories: CategoryCard[] = [
     title: 'Оборудование',
     gradient: 'linear-gradient(140deg, #585858 0%, #383838 60%, #202020 100%)',
     image: '/assets/std-equipment.jpg',
-    grayed: true,
+    href: '/standards/oborudovaniye',
   },
   {
     title: 'Продукт',
