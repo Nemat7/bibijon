@@ -22,7 +22,7 @@ const articles: ArticleCard[] = [
   { title: 'Сертификация фритюров', description: 'Цель: обеспечить безопасность сотрудников и исправное техническое состояние фритюров', href: '/pdfs/oborudovaniye/Сертификация фритюров.pdf' },
   { title: 'Миксер Hamilton Beach', description: 'Миксер для приготовления молочных коктейлей, десертов', href: '/pdfs/oborudovaniye/Миксер Hamilton Beach.pdf' },
   { title: 'Устройство дозирования полуфабриката замороженного картофеля Franke модель F3D3P', description: 'Устройство предназначено для краткосрочного замораживания полуфабриката', to: '/standards/oborudovaniye/franke' },
-  { title: 'Морозильная камера', description: 'Морозильная камера -18-23С' },
+  { title: 'Морозильная камера', description: 'Морозильная камера -18-23С', href: '/pdfs/oborudovaniye/Морозильная камера.pdf' },
   { title: 'Тепловой шкаф Henny Penny', description: 'Тепловой шкаф Henny Penny HHC-136' },
   { title: 'Шкаф холодильный Polair CM-107G', description: 'Шкаф холодильный для хранения охлаждённых продуктов' },
   { title: 'Открытый фритюр Frymaster FPRE214', description: 'Открытый фритюр Frymaster FPRE214' },
