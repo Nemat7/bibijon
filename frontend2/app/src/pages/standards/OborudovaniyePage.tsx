@@ -12,7 +12,7 @@ interface ArticleCard {
 
 const articles: ArticleCard[] = [
   { title: 'Холодильник/морозильник SKYCOLD GNH/GNL', description: 'Холодильник/морозильник SKYCOLD GNH/GNL', to: '/standards/oborudovaniye/skycold' },
-  { title: 'ХОЛОДИЛЬНИК ДЛЯ ОТХОДОВ SIMECO', description: 'Холодильник для отходов SIMECO' },
+  { title: 'ХОЛОДИЛЬНИК ДЛЯ ОТХОДОВ SIMECO', description: 'Холодильник для отходов SIMECO', to: '/standards/oborudovaniye/simeco-othod' },
   { title: 'Оборудование', description: 'Общее руководство по оборудованию ресторана KFC' },
   { title: 'PM Календарь', description: 'Календарь планово-предупредительного обслуживания оборудования' },
   { title: 'Мармит BM1W (BM)', description: 'Мармит электрический для подогрева ингредиентов' },
