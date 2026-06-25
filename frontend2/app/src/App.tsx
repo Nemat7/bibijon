@@ -32,6 +32,7 @@ import RgsPage from './pages/standards/RgsPage'
 import OborudovaniyePage from './pages/standards/OborudovaniyePage'
 import SkycoldPage from './pages/standards/SkycoldPage'
 import SimecoOthodPage from './pages/standards/SimecoOthodPage'
+import MarmitPage from './pages/standards/MarmitPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -64,6 +65,7 @@ export default function App() {
         <Route path="/standards/oborudovaniye" element={<OborudovaniyePage />} />
         <Route path="/standards/oborudovaniye/skycold" element={<SkycoldPage />} />
         <Route path="/standards/oborudovaniye/simeco-othod" element={<SimecoOthodPage />} />
+        <Route path="/standards/oborudovaniye/marmit" element={<MarmitPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
