@@ -14,7 +14,7 @@ const articles: ArticleCard[] = [
   { title: 'Холодильник/морозильник SKYCOLD GNH/GNL', description: 'Холодильник/морозильник SKYCOLD GNH/GNL', to: '/standards/oborudovaniye/skycold' },
   { title: 'ХОЛОДИЛЬНИК ДЛЯ ОТХОДОВ SIMECO', description: 'Холодильник для отходов SIMECO', to: '/standards/oborudovaniye/simeco-othod' },
   { title: 'Оборудование', description: 'Общее руководство по оборудованию ресторана KFC' },
-  { title: 'PM Календарь', description: 'Календарь планово-предупредительного обслуживания оборудования' },
+  { title: 'PM Календарь', description: 'Календарь планово-предупредительного обслуживания оборудования', href: '/pdfs/oborudovaniye/PM Календарь.pdf' },
   { title: 'Мармит BM1W (BM)', description: 'Мармит электрический для подогрева ингредиентов' },
   { title: 'Сэндвичная станция Техно-ТТ СПН', description: 'Серия C-124/20/1007' },
   { title: 'Миксер Vita Mix', description: 'Миксер для приготовления десертов, напитков, смесей из разных ингредиентов' },
