@@ -35,6 +35,7 @@ import SimecoOthodPage from './pages/standards/SimecoOthodPage'
 import MarmitPage from './pages/standards/MarmitPage'
 import TehnoTtPage from './pages/standards/TehnoTtPage'
 import VitamixPage from './pages/standards/VitamixPage'
+import AntunPage from './pages/standards/AntunPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -70,6 +71,7 @@ export default function App() {
         <Route path="/standards/oborudovaniye/marmit" element={<MarmitPage />} />
         <Route path="/standards/oborudovaniye/tehno-tt" element={<TehnoTtPage />} />
         <Route path="/standards/oborudovaniye/vitamix" element={<VitamixPage />} />
+        <Route path="/standards/oborudovaniye/antunes" element={<AntunPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
