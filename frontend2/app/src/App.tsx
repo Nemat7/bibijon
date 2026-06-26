@@ -72,6 +72,10 @@ import FrymasterRe14Page from './pages/standards/FrymasterRe14Page'
 import FabristeelFasovkaPage from './pages/standards/FabristeelFasovkaPage'
 import DirectorPage from './pages/DirectorPage'
 import RgmVvedeniePage from './pages/director/RgmVvedeniePage'
+import UpravlyayKakVladelecPage from './pages/director/UpravlyayKakVladelecPage'
+import RukovodiSerdcemPage from './pages/director/RukovodiSerdcemPage'
+import KouchingPage from './pages/director/KouchingPage'
+import SozdavayAtmosferuPage from './pages/director/SozdavayAtmosferuPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -144,6 +148,10 @@ export default function App() {
         <Route path="/standards/oborudovaniye/fabristeel-fasovka" element={<FabristeelFasovkaPage />} />
         <Route path="/director" element={<DirectorPage />} />
         <Route path="/director/rgm-vvedenie" element={<RgmVvedeniePage />} />
+        <Route path="/director/upravlyay-kak-vladelec" element={<UpravlyayKakVladelecPage />} />
+        <Route path="/director/rukovodi-serdcem" element={<RukovodiSerdcemPage />} />
+        <Route path="/director/kouching" element={<KouchingPage />} />
+        <Route path="/director/sozdavay-atmosferu" element={<SozdavayAtmosferuPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

@@ -12,10 +12,10 @@ interface TrainingCard {
 
 const week1: TrainingCard[] = [
   { title: 'RGM - Введение', week: 1, to: '/director/rgm-vvedenie' },
-  { title: 'Управляй как владелец', week: 1 },
-  { title: 'Руководи сердцем', week: 1 },
-  { title: 'Коучинг', week: 1 },
-  { title: 'Создавай атмосферу семейного уюта и счастья', week: 1 },
+  { title: 'Управляй как владелец', week: 1, to: '/director/upravlyay-kak-vladelec' },
+  { title: 'Руководи сердцем', week: 1, to: '/director/rukovodi-serdcem' },
+  { title: 'Коучинг', week: 1, to: '/director/kouching' },
+  { title: 'Создавай атмосферу семейного уюта и счастья', week: 1, to: '/director/sozdavay-atmosferu' },
 ]
 
 const weeks = [
