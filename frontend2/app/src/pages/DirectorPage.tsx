@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { Link } from 'react-router'
 import { Heart } from 'lucide-react'
 import Topbar from '@/components/Topbar'
 
@@ -6,10 +7,11 @@ interface TrainingCard {
   title: string
   week: number
   href?: string
+  to?: string
 }
 
 const week1: TrainingCard[] = [
-  { title: 'RGM - Введение', week: 1 },
+  { title: 'RGM - Введение', week: 1, to: '/director/rgm-vvedenie' },
   { title: 'Управляй как владелец', week: 1 },
   { title: 'Руководи сердцем', week: 1 },
   { title: 'Коучинг', week: 1 },
@@ -80,6 +82,18 @@ function TrainingCardItem({ card }: { card: TrainingCard }) {
       </div>
     </>
   )
+
+  if (card.to) {
+    return (
+      <Link
+        to={card.to}
+        className="group flex flex-col bg-white rounded-[12px] overflow-hidden no-underline"
+        style={{ ...sharedStyle, cursor: 'pointer' }}
+      >
+        {inner}
+      </Link>
+    )
+  }
 
   if (card.href) {
     return (

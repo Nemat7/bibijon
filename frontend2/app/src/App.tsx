@@ -71,6 +71,7 @@ import WinstonPage from './pages/standards/WinstonPage'
 import FrymasterRe14Page from './pages/standards/FrymasterRe14Page'
 import FabristeelFasovkaPage from './pages/standards/FabristeelFasovkaPage'
 import DirectorPage from './pages/DirectorPage'
+import RgmVvedeniePage from './pages/director/RgmVvedeniePage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -142,6 +143,7 @@ export default function App() {
         <Route path="/standards/oborudovaniye/frymaster-re14" element={<FrymasterRe14Page />} />
         <Route path="/standards/oborudovaniye/fabristeel-fasovka" element={<FabristeelFasovkaPage />} />
         <Route path="/director" element={<DirectorPage />} />
+        <Route path="/director/rgm-vvedenie" element={<RgmVvedeniePage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
