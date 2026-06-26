@@ -85,6 +85,9 @@ import ZashchitaBrendaPage from './pages/director/ZashchitaBrendaPage'
 import PonimaniePlPage from './pages/director/PonimaniePlPage'
 import KontrolRaskhodovPage from './pages/director/KontrolRaskhodovPage'
 import PrognozirovaniyeProdazhPage from './pages/director/PrognozirovaniyeProdazhPage'
+import EffektivnayaKommunikaciyaPage from './pages/director/EffektivnayaKommunikaciyaPage'
+import PrazdnuyUspekPage from './pages/director/PrazdnuyUspekPage'
+import SertifikaciyaRgmPage from './pages/director/SertifikaciyaRgmPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -170,6 +173,9 @@ export default function App() {
         <Route path="/director/ponimanie-pl" element={<PonimaniePlPage />} />
         <Route path="/director/kontrol-raskhodov" element={<KontrolRaskhodovPage />} />
         <Route path="/director/prognozirovanie-prodazh" element={<PrognozirovaniyeProdazhPage />} />
+        <Route path="/director/effektivnaya-kommunikaciya" element={<EffektivnayaKommunikaciyaPage />} />
+        <Route path="/director/prazdnuy-uspekh" element={<PrazdnuyUspekPage />} />
+        <Route path="/director/sertifikaciya-rgm" element={<SertifikaciyaRgmPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />

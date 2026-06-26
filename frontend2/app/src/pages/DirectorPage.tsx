@@ -36,11 +36,18 @@ const week4: TrainingCard[] = [
   { title: 'Прогнозирование продаж и планирование трудовых ресурсов', week: 4, to: '/director/prognozirovanie-prodazh' },
 ]
 
+const week5: TrainingCard[] = [
+  { title: 'Эффективная коммуникация', week: 5, to: '/director/effektivnaya-kommunikaciya' },
+  { title: 'Празднуй успех', week: 5, to: '/director/prazdnuy-uspekh' },
+  { title: 'Сертификация RGM', week: 5, to: '/director/sertifikaciya-rgm' },
+]
+
 const weeks = [
   { label: 'Неделя 1', cards: week1 },
   { label: 'Неделя 2', cards: week2 },
   { label: 'Неделя 3', cards: week3 },
   { label: 'Неделя 4', cards: week4 },
+  { label: 'Неделя 5', cards: week5 },
 ]
 
 function TrainingCardItem({ card }: { card: TrainingCard }) {
