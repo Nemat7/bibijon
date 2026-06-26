@@ -18,8 +18,22 @@ const week1: TrainingCard[] = [
   { title: 'Создавай атмосферу семейного уюта и счастья', week: 1, to: '/director/sozdavay-atmosferu' },
 ]
 
+const week2: TrainingCard[] = [
+  { title: 'Планирование кадрового резерва', week: 2, to: '/director/planirovanie-kadrov' },
+  { title: 'Обучай и развивай команду', week: 2, to: '/director/obuchay-komandu' },
+  { title: 'Преимущества дружной командной работы', week: 2, to: '/director/preimushchestva-komandy' },
+  { title: 'Работай эффективно', week: 2, to: '/director/rabotay-effektivno' },
+]
+
+const week3: TrainingCard[] = [
+  { title: 'Опыт Гостей', week: 3, to: '/director/opyt-gostey' },
+  { title: 'Защита бренда', week: 3, to: '/director/zashchita-brenda' },
+]
+
 const weeks = [
   { label: 'Неделя 1', cards: week1 },
+  { label: 'Неделя 2', cards: week2 },
+  { label: 'Неделя 3', cards: week3 },
 ]
 
 function TrainingCardItem({ card }: { card: TrainingCard }) {

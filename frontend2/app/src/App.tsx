@@ -76,6 +76,12 @@ import UpravlyayKakVladelecPage from './pages/director/UpravlyayKakVladelecPage'
 import RukovodiSerdcemPage from './pages/director/RukovodiSerdcemPage'
 import KouchingPage from './pages/director/KouchingPage'
 import SozdavayAtmosferuPage from './pages/director/SozdavayAtmosferuPage'
+import PlanirovanieKadrovPage from './pages/director/PlanirovanieKadrovPage'
+import ObuchayKomanduPage from './pages/director/ObuchayKomanduPage'
+import PreimushchestvaKomandyPage from './pages/director/PreimushchestvaKomandyPage'
+import RabotayEffektivnoPage from './pages/director/RabotayEffektivnoPage'
+import OpytGosteyPage from './pages/director/OpytGosteyPage'
+import ZashchitaBrendaPage from './pages/director/ZashchitaBrendaPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -152,6 +158,12 @@ export default function App() {
         <Route path="/director/rukovodi-serdcem" element={<RukovodiSerdcemPage />} />
         <Route path="/director/kouching" element={<KouchingPage />} />
         <Route path="/director/sozdavay-atmosferu" element={<SozdavayAtmosferuPage />} />
+        <Route path="/director/planirovanie-kadrov" element={<PlanirovanieKadrovPage />} />
+        <Route path="/director/obuchay-komandu" element={<ObuchayKomanduPage />} />
+        <Route path="/director/preimushchestva-komandy" element={<PreimushchestvaKomandyPage />} />
+        <Route path="/director/rabotay-effektivno" element={<RabotayEffektivnoPage />} />
+        <Route path="/director/opyt-gostey" element={<OpytGosteyPage />} />
+        <Route path="/director/zashchita-brenda" element={<ZashchitaBrendaPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
