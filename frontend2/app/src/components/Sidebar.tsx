@@ -15,7 +15,7 @@ import {
 
 const mainNav = [
   { label: 'Главная', to: '/', icon: Home },
-  { label: 'Директор', to: '/', icon: User },
+  { label: 'Директор', to: '/director', icon: User },
   { label: 'Отчет об обучении', to: '/', icon: BarChart3 },
   { label: 'Стандарты', to: '/standards', icon: BookOpen },
   { label: 'Оценивать', to: '/', icon: ClipboardCheck },

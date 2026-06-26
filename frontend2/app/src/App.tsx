@@ -60,6 +60,17 @@ import SimecoMorozilnikPage from './pages/standards/SimecoMorozilnikPage'
 import OrwakPage from './pages/standards/OrwakPage'
 import AyrkingPage from './pages/standards/AyrkingPage'
 import HobartPage from './pages/standards/HobartPage'
+import SimicoSendvichPage from './pages/standards/SimicoSendvichPage'
+import StoddartPage from './pages/standards/StoddartPage'
+import PrincecastleShkafPage from './pages/standards/PrincecastleShkafPage'
+import HennyPennyShkaf990Page from './pages/standards/HennyPennyShkaf990Page'
+import SimicoFasovkaPage from './pages/standards/SimicoFasovkaPage'
+import HatcoPage from './pages/standards/HatcoPage'
+import TestoSaverisPage from './pages/standards/TestoSaverisPage'
+import WinstonPage from './pages/standards/WinstonPage'
+import FrymasterRe14Page from './pages/standards/FrymasterRe14Page'
+import FabristeelFasovkaPage from './pages/standards/FabristeelFasovkaPage'
+import DirectorPage from './pages/DirectorPage'
 import CleaningCaptainPage from './pages/standards/CleaningCaptainPage'
 import KurinnyeKuskiORArticle from './pages/articles/KurinnyeKuskiORArticle'
 
@@ -120,6 +131,17 @@ export default function App() {
         <Route path="/standards/oborudovaniye/orwak" element={<OrwakPage />} />
         <Route path="/standards/oborudovaniye/ayrking" element={<AyrkingPage />} />
         <Route path="/standards/oborudovaniye/hobart" element={<HobartPage />} />
+        <Route path="/standards/oborudovaniye/simeco-sendvich" element={<SimicoSendvichPage />} />
+        <Route path="/standards/oborudovaniye/stoddart" element={<StoddartPage />} />
+        <Route path="/standards/oborudovaniye/princecastle-shkaf" element={<PrincecastleShkafPage />} />
+        <Route path="/standards/oborudovaniye/henny-penny-shkaf-990" element={<HennyPennyShkaf990Page />} />
+        <Route path="/standards/oborudovaniye/simeco-fasovka" element={<SimicoFasovkaPage />} />
+        <Route path="/standards/oborudovaniye/hatco" element={<HatcoPage />} />
+        <Route path="/standards/oborudovaniye/testo-saveris" element={<TestoSaverisPage />} />
+        <Route path="/standards/oborudovaniye/winston" element={<WinstonPage />} />
+        <Route path="/standards/oborudovaniye/frymaster-re14" element={<FrymasterRe14Page />} />
+        <Route path="/standards/oborudovaniye/fabristeel-fasovka" element={<FabristeelFasovkaPage />} />
+        <Route path="/director" element={<DirectorPage />} />
         <Route path="/standards/produkt/kurinnye-kuski-or" element={<KurinnyeKuskiORArticle />} />
         <Route path="/standards/obsluzhivanie/servis" element={<ServisArticle />} />
         <Route path="/standards/obsluzhivanie/sos" element={<SosArticle />} />
