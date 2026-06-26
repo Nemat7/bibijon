@@ -30,10 +30,17 @@ const week3: TrainingCard[] = [
   { title: 'Защита бренда', week: 3, to: '/director/zashchita-brenda' },
 ]
 
+const week4: TrainingCard[] = [
+  { title: 'Понимание P&L', week: 4, to: '/director/ponimanie-pl' },
+  { title: 'Контроль расходов', week: 4, to: '/director/kontrol-raskhodov' },
+  { title: 'Прогнозирование продаж и планирование трудовых ресурсов', week: 4, to: '/director/prognozirovanie-prodazh' },
+]
+
 const weeks = [
   { label: 'Неделя 1', cards: week1 },
   { label: 'Неделя 2', cards: week2 },
   { label: 'Неделя 3', cards: week3 },
+  { label: 'Неделя 4', cards: week4 },
 ]
 
 function TrainingCardItem({ card }: { card: TrainingCard }) {
